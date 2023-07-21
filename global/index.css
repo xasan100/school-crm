@@ -1,0 +1,15 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+:root {
+    --bck: #000000;
+    --color:#FFFFFF;
+    --backOut:#2E2E2E;
+}
+body {
+    background: var(--bck);
+    color: var(--color);
+}
