@@ -5,7 +5,7 @@ import Header from "../Components/header/Header";
 import Sidebar from "../Components/sidebar/Sidebar";
 import { Context } from "../context/Context";
 
-export default function App({ Component, pageProps }) {
+export const  App =({ Component, pageProps }) => {
   return (
     <Context>
       <Provider store={store}>
@@ -22,3 +22,4 @@ export default function App({ Component, pageProps }) {
     </Context>
   );
 }
+export default App

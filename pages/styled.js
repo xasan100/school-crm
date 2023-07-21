@@ -8,4 +8,4 @@ const Container = styled.div`
   flex: 4;
 `;
 
-export { Container };
+export default Container;
