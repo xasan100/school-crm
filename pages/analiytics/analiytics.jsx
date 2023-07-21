@@ -1,6 +1,6 @@
 import React from "react";
-import { Container } from "../students-report/styled.js";
 import LineCharts from "../../Components/chart/Line.jsx";
+import Container from "./styled.js";
 
 export const Analiytics = () => {
   return (
