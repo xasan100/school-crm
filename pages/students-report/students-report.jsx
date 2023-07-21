@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container } from './styled'
+import { Container } from './styled.js'
 
 export const Students = () => {
   return (

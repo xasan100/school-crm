@@ -97,6 +97,5 @@ const IconsItem = styled.div`
     transition: 0.3s;
   }
 `;
-
-export {  LogoImg, Menu, MenuItems, Icons, IconsItem };
 export default Container
+export {  LogoImg, Menu, MenuItems, Icons, IconsItem };

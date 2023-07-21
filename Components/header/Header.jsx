@@ -1,19 +1,18 @@
 import React, { useState } from "react";
-import {
-  Container,
+import Container, {
   Icons,
   IconsItem,
   LogoImg,
   Menu,
   MenuItems,
-} from "./styled";
+} from "./styled.js";
 import Logo from "../../assets/logo.png";
 import Image from "next/image";
 import { menuItems } from "../../constant/menu";
 import { GoBellFill } from "react-icons/go";
 import { FaUser } from "react-icons/fa";
 import { useContext } from "react";
-import SiteContext from "../../context/Context";
+import SiteContext from "../../context/Context.jsx";
 
 export  const Header =()=> {
   const [activeLink, setActiveLink] = useState(1);

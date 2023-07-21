@@ -1,9 +1,9 @@
 import { Provider } from "react-redux";
-import store from "../redux/store/index";
+import store from "../redux/store/index.js";
 import "../global/index.css";
-import Header from "../Components/header/Header";
-import Sidebar from "../Components/sidebar/Sidebar";
-import { Context } from "../context/Context";
+import Header from "../Components/header/Header.jsx";
+import Sidebar from "../Components/sidebar/Sidebar.jsx";
+import { Context } from "../context/Context.jsx";
 
 export const  App =({ Component, pageProps }) => {
   return (

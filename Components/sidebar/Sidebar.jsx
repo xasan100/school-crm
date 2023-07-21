@@ -1,7 +1,7 @@
 import React from "react";
-import { Container, Menu, MenuLink } from "./styled";
+import Container, {  Menu, MenuLink } from "./styled.js";
 import { useContext } from "react";
-import SiteContext from "../../context/Context";
+import SiteContext from "../../context/Context.jsx";
 import { useState } from "react";
 import { useRouter } from "next/router";
 
