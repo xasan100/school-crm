@@ -51,4 +51,5 @@ const MenuLink = styled.li`
         `}
 `;
 
-export { Container, Menu, MenuLink }; 
+export {  Menu, MenuLink }; 
+export default Container

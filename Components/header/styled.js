@@ -98,4 +98,5 @@ const IconsItem = styled.div`
   }
 `;
 
-export { Container, LogoImg, Menu, MenuItems, Icons, IconsItem };
+export {  LogoImg, Menu, MenuItems, Icons, IconsItem };
+export default Container
